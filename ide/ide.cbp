@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ide" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ide" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ide" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../LinkedList/ll1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../SPOJ/10509_CRDS.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/11063_AP2.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/11368_TSHOW2.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/11373_RPLC.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/11398_TECHELN5.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/11402.CPP">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/11494_RPLH.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/11521_DOMINST.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/24_FCTRL2.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/302_CANTON.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/7974_ACPC10A.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/8060_AMR10F.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/Prime1.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/TEST.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../SPOJ/fibseries.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="sort.cpp">
+			<Option target="Release" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
